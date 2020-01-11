@@ -1,0 +1,30 @@
+@media screen and (max-aspect-ratio: 1/1) { 
+
+    .c-scrollbar {
+        width: .6vw;
+    }
+
+    .mt_head_top {
+        top: 6.3rem;
+        left: 7rem;
+    }
+    
+    .mt_head_bot {
+        bottom: 6.3rem;
+        right: 7rem;
+    }
+
+    html {
+        font-size:.65vw;
+    }
+
+    .mt_foot {
+        padding: 6.3rem 7rem;
+    }  
+    #credits {
+        bottom: 7rem;
+        left: 7rem;
+    }
+
+
+}

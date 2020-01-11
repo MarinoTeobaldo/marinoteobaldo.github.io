@@ -1,0 +1,50 @@
+@media screen and (min-aspect-ratio: 20/9) { 
+
+    .c-scrollbar {
+        width: .55vw;
+    }
+
+    .mt_head_top {
+        top: 6.3rem;
+        left: 7rem;
+    }
+
+    .mt_head_in {
+        font-size: 8rem;
+    }
+    
+    
+    .mt_head_bot {
+        bottom: 6.3rem;
+        right: 7rem;
+    }
+
+    html {
+        font-size:.65vw;
+    }
+
+    .mt_foot_top {
+        position: absolute;
+        top: -12rem;
+        right: 7rem;
+    }
+
+
+    .mt_foot_bot {
+        position: absolute;
+        bottom: 6.3rem;
+        left: 7rem;
+    }
+
+
+
+    #credits {
+        bottom: 7.25rem;
+        right: 6.5rem;
+        margin-right: 0;
+    }
+
+    
+.mt_blur_active {
+    filter:blur(.75vw);
+}

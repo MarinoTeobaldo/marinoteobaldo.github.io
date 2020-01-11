@@ -1,0 +1,36 @@
+#image_1_out {
+    margin-left: 5vw;
+    margin-top: -22vw;
+    width:70vw;
+    height:60vw;
+}
+
+
+#image_2_out {
+    margin-left: 23vw;
+    margin-top: -20vw;
+    width:70vw;
+    height:60vw;
+    z-index:10;
+}
+
+#image_3_out {
+    margin-left: 12vw;
+    margin-top: -25vw;
+    width:70vw;
+    height:60vw;
+}
+
+#image_4_out {
+    margin-left: 7vw;
+    margin-top: -20vw;
+    width:70vw;
+    height:60vw;
+}
+
+#image_5_out {
+    margin-left: 25vw;
+    margin-top: -20vw;
+    width:70vw;
+    height:60vw;
+}

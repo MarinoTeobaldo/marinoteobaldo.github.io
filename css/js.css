@@ -1,0 +1,29 @@
+html.js, .js body {
+    overflow:hidden;
+}
+
+
+.c-scrollbar {
+    width: .8vw;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    min-width: 10px;
+    z-index: 99999;
+}
+
+
+
+.c-scrollbar_thumb {
+    /* border-radius: 2px; */
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.c-scrollbar_thumb:hover {
+    cursor: pointer
+}

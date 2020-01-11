@@ -1,0 +1,38 @@
+/* Fonts */
+@font-face {
+    font-family: 'gil_nr_rg';
+    src: url('gil_nr_rg.woff2') format('woff2'), url('gil_nr_rg.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'gil_nr_me';
+    src: url('gil_nr_me.woff2') format('woff2'), url('gil_nr_me.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'gil_nr_bo';
+    src: url('gil_nr_bo.woff2') format('woff2'), url('gil_nr_bo.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url('Plain-Regular.woff2') format('woff2'),
+        url('Plain-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Plain';
+    src: url('Plain-Light.woff2') format('woff2'),
+        url('Plain-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('variable.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}

@@ -1,0 +1,16 @@
+.noscript #credits {
+    transition: all .35s ease;
+    transform: scale(1);
+}
+
+.noscript #credits:hover {
+    transform: scale(1.8);
+}
+
+.noscript .mt_link {
+    transition:color .4s ease-out;
+}
+
+.noscript .mt_link:hover {
+    color:transparent;
+}

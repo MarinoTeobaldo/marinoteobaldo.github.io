@@ -1,0 +1,146 @@
+#curtains {
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background:#fafafa;
+    z-index:9999999;
+    animation: loadingAnim ease 1s 1 forwards;
+}
+
+@keyframes loadingAnim {
+    0%   { opacity: 1; }
+    100% { opacity: 0; pointer-events:none; }
+  }		
+
+html,body {
+    font-size:1vw;
+    font-family: 'gil_nr_me';
+    color:#1a1a1a;
+    background:#fafafa;
+}
+
+a, a:hover, a:active {
+    text-decoration:none;
+    color: #1a1a1a;
+
+}
+
+main {
+    position:relative;
+    width:100vw;
+}
+
+section {
+    position: relative;
+
+}
+
+#mt_head {
+    position: relative;
+    z-index:50;
+}
+
+.mt_head_in {
+    box-sizing: border-box;
+    color: #1a1a1a;
+    font-size: 7.5rem;
+    line-height: 1.1em;
+    letter-spacing: -.075rem;
+    position: relative;
+    height: 100vh;
+    user-select: none;
+}
+
+
+
+.mt_head_top {
+    position: absolute;
+    top: 4.5rem;
+    left: 5rem;
+    filter: blur(.6px);
+}
+
+.mt_head_bot {
+    position: absolute;
+    bottom: 4.5rem;
+    right: 5rem;
+    filter: blur(.6px);
+}
+
+.mt_foot {
+    box-sizing: border-box;
+    font-size: 6rem;
+    line-height: 1.05em;
+    letter-spacing: -.075rem;
+    position: relative;
+    height: 100vh;
+    user-select: none;
+    filter: blur(.4px);
+}
+
+.mt_foot_top {
+    position: absolute;
+    top: -4.5rem;
+    right: 5rem;
+    filter: blur(.6px);
+}
+
+.mt_foot_bot {
+    position: absolute;
+    bottom: 4.5rem;
+    left: 5rem;
+    filter: blur(.6px);
+    
+}
+
+
+
+
+#credits {
+    font-size: 1rem;
+    bottom: 4.65rem;
+    position: absolute;
+    line-height: 3rem;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    margin-right: .75rem;
+    right: 4.5rem;
+    -webkit-text-stroke-width: 1px;
+    display:none;
+}
+
+#credits a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mt_spacer {
+    display: inline-block;
+    width: 1.5em;
+    height: .07em;
+    position: relative;
+    margin: 0 .35em 0.25em;
+    background: #1a1a1a;
+    pointer-events:none;
+    border-radius: 1px;
+}
+
+.mt_blur {
+    transition:filter 2.5s cubic-bezier(0.230, 1.000, 0.320, 1.000);
+}
+
+.mt_blur_active {
+    filter:blur(1.5vw);
+}
+
+.mt_link {
+    line-height:1em;
+}
+
+.mt_foot_bot div:nth-of-type(1) {
+    margin-bottom:.5rem;
+}
